@@ -40,21 +40,22 @@ class NavBar extends StatelessWidget {
             onTap: () => print('Fav'), 
           ),
           ListTile(
-            leading: const Icon(Icons.favorite),
-            title: const Text('Favorites'),
+            leading: const Icon(Icons.meeting_room),
+            title: const Text('Rent Unit'),
             onTap: () => print('Fav'), 
           ),
           const Divider(),
-          ListTile(
-            leading: const Icon(Icons.favorite),
-            title: const Text('Favorites'),
-            onTap: () => print('Fav'), 
-          ),
           ListTile(
             leading: const Icon(Icons.person_rounded),
             title: const Text('Profile'),
             onTap: () => print('Fav'), 
           ),
+          ListTile(
+            leading: const Icon(Icons.settings),
+            title: const Text('Settings'),
+            onTap: () => print('Fav'), 
+          ),
+          
           const Divider(),
           ListTile(
             leading: const Icon(Icons.logout_rounded),
