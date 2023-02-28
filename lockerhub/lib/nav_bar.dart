@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lockerhub/activity_log_page.dart';
 import 'package:lockerhub/login_page.dart';
 
 class NavBar extends StatelessWidget {
@@ -37,7 +38,10 @@ class NavBar extends StatelessWidget {
           ListTile(
             leading: const Icon(Icons.content_paste_search_rounded),
             title: const Text('Activity Log'),
-            onTap: () => print('Fav'), 
+            onTap: () => {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const ActivityLogPage()))}
           ),
           ListTile(
             leading: const Icon(Icons.meeting_room),

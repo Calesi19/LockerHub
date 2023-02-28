@@ -28,9 +28,10 @@ class LoginPage extends StatelessWidget {
             const SizedBox(height: 50),
 
             //logo
-            const Icon(
-              Icons.lock,
-              size: 100,
+            Image.asset(
+              'lib/images/lockerhub_black.png',
+              width: 175,
+              height: 175,
             ),
 
             const SizedBox(height: 50),
@@ -78,7 +79,9 @@ class LoginPage extends StatelessWidget {
             const SizedBox(height: 25),
 
             //sign in button
-            MyButton(onTap:() => Navigator.of(context).push(MaterialPageRoute(builder: (context) => const HomePage())))
+            MyButton(
+                onTap: () => Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => const HomePage())))
           ],
         ))));
   }
