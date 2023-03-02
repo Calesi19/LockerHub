@@ -67,7 +67,8 @@ class AccountBalanceWidget extends StatelessWidget {
                       ),
                     ],
                   ),
-                  child: const Center(child: Text('Make Payment'))),
+                  child: const Center(child: 
+                  Text('Make Payment'))),
             )
           ],
         ),

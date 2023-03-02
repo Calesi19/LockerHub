@@ -8,6 +8,7 @@ class HomeUnitBlock extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+        
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
         margin: const EdgeInsets.symmetric(horizontal: 25),
         decoration: BoxDecoration(
@@ -27,6 +28,7 @@ class HomeUnitBlock extends StatelessWidget {
             '241',
             style: TextStyle(fontSize: 65),
           ),
+          Spacer(),
           Column(children: const [
             Text('Birch Lane'),
             Text('Woodbury, Minnesota'),

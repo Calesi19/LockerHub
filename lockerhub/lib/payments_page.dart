@@ -6,6 +6,7 @@ class PaymentsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        floatingActionButton: FloatingActionButton(onPressed: () => {print('test')}, child: Icon(Icons.money),),//BubbleButton(iconData: Icons.money, onPressed: () => {print('fac')},),
         backgroundColor: Colors.grey[300],
         appBar: AppBar(
           backgroundColor: Colors.black,
@@ -37,12 +38,7 @@ class PaymentsPage extends StatelessWidget {
                           style: TextStyle(
                               fontSize: 45, fontWeight: FontWeight.bold))
                     ])),
-
             const SizedBox(height: 25),
-
-
-
-
             Row(children: const <Widget>[
               Expanded(
                   child: Divider(
@@ -59,9 +55,7 @@ class PaymentsPage extends StatelessWidget {
                 endIndent: 45,
               )),
             ]),
-
             const SizedBox(height: 25),
-            
             Center(
               child: Container(
                 padding: const EdgeInsets.all(20),
@@ -94,10 +88,13 @@ class PaymentsPage extends StatelessWidget {
                         ),
                         TextSpan(text: 'FEES:\n'),
                         TextSpan(text: '\t\t\t\tPAYMENT MARCH: '),
-                        TextSpan(text: '\$45.00\n', style: TextStyle(color: Colors.red)),
+                        TextSpan(
+                            text: '\$45.00\n',
+                            style: TextStyle(color: Colors.red)),
                         TextSpan(text: '\t\t\t\tCLEANING FEE: '),
-                        TextSpan(text: '\$2267.00', style: TextStyle(color: Colors.red))
-                        
+                        TextSpan(
+                            text: '\$2267.00',
+                            style: TextStyle(color: Colors.red))
                       ],
                     ),
                   ),
@@ -122,20 +119,10 @@ class PaymentsPage extends StatelessWidget {
                       ),
                     ),
                   ]),
-                ]
-                ),
+                ]),
               ),
-
-
-
             ),
-
-
-
-
-
             const SizedBox(height: 25),
-
             Row(children: const <Widget>[
               Expanded(
                   child: Divider(
@@ -152,12 +139,7 @@ class PaymentsPage extends StatelessWidget {
                 endIndent: 45,
               )),
             ]),
-
-
             const SizedBox(height: 25),
-
-
-
             Center(
               child: Container(
                 padding: const EdgeInsets.all(20),
@@ -213,12 +195,8 @@ class PaymentsPage extends StatelessWidget {
                       ),
                     ),
                   ]),
-                ]
-                ),
+                ]),
               ),
-
-
-
             )
           ],
         ))));
