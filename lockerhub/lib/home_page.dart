@@ -38,6 +38,7 @@ class HomePage extends StatelessWidget {
                     child: Divider(
                   indent: 40,
                   endIndent: 5,
+                  thickness: 1,
                 )),
                 Text(
                   'RENTED UNITS',
@@ -47,6 +48,7 @@ class HomePage extends StatelessWidget {
                     child: Divider(
                   indent: 5,
                   endIndent: 45,
+                  thickness: 1,
                 )),
               ]),
 

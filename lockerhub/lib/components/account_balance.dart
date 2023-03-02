@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lockerhub/payments_page.dart';
 
 class AccountBalanceWidget extends StatelessWidget {
   final double balance;
@@ -45,7 +46,12 @@ class AccountBalanceWidget extends StatelessWidget {
             ),
             const SizedBox(height: 8.0),
             GestureDetector(
-              onTap: () => print('make payment'),
+              onTap: () => {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const PaymentsPage()))
+              },
               child: Container(
                   padding:
                       const EdgeInsets.symmetric(horizontal: 25, vertical: 8),
