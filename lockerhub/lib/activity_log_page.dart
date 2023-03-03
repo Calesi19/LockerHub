@@ -33,7 +33,7 @@ class ActivityLogPage extends StatelessWidget {
                 endIndent: 5,
               )),
               Text(
-                'LAST MONTH',
+                'PAST MONTH',
                 style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
               Expanded(
@@ -48,11 +48,11 @@ class ActivityLogPage extends StatelessWidget {
 
             Center(
               child: Container(
-                padding: const EdgeInsets.all(25),
+                padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 15),
                 margin: const EdgeInsets.symmetric(horizontal: 25),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(17.0),
-                  color: Colors.green,
+                  color: Colors.grey[500],
                   boxShadow: [
                     BoxShadow(
                       color: Colors.grey.withOpacity(0.5),
@@ -78,7 +78,7 @@ class ActivityLogPage extends StatelessWidget {
                           color: Colors.black,
                         ),
                         children: [
-                          TextSpan(text: 'Locker\n', ),
+                          TextSpan(text: 'Unit\n', ),
                           TextSpan(text: '241', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30)),
                         ],
                       ),

@@ -70,7 +70,7 @@ class HomePage extends StatelessWidget {
                       const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
                   margin: const EdgeInsets.symmetric(horizontal: 25),
                   decoration: BoxDecoration(
-                    color: Colors.red[400],
+                    color: Colors.grey[300],
                     borderRadius: BorderRadius.circular(17),
                     boxShadow: [
                       BoxShadow(
@@ -87,7 +87,7 @@ class HomePage extends StatelessWidget {
                     
 
                     Text(
-                      'RENT A STORAGE SPACE',
+                      'RENT A STORAGE UNIT',
                       style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     ),
 

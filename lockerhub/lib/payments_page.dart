@@ -146,7 +146,7 @@ class PaymentsPage extends StatelessWidget {
                 margin: const EdgeInsets.symmetric(horizontal: 25),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(17.0),
-                  color: Colors.green,
+                  color: Colors.green[400],
                   boxShadow: [
                     BoxShadow(
                       color: Colors.grey.withOpacity(0.5),
@@ -170,7 +170,7 @@ class PaymentsPage extends StatelessWidget {
                         TextSpan(
                           text: 'Feb 28, 2023\n',
                         ),
-                        TextSpan(text: 'Payment by you.'),
+                        TextSpan(text: 'DISCOVER 6894'),
                       ],
                     ),
                   ),

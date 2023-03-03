@@ -14,7 +14,7 @@ class AccountBalanceWidget extends StatelessWidget {
       margin: const EdgeInsets.symmetric(horizontal: 25),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(17.0),
-        color: const Color.fromRGBO(44, 164, 255, 1),
+        color:  Colors.grey[300],
         boxShadow: [
           BoxShadow(
             color: Colors.grey.withOpacity(0.5),
@@ -40,7 +40,7 @@ class AccountBalanceWidget extends StatelessWidget {
               '\$${balance.toStringAsFixed(2)}',
               style: const TextStyle(
                 fontWeight: FontWeight.bold,
-                color: Colors.white,
+                color: Colors.black,
                 fontSize: 50.0,
               ),
             ),
@@ -57,7 +57,7 @@ class AccountBalanceWidget extends StatelessWidget {
                       const EdgeInsets.symmetric(horizontal: 25, vertical: 8),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
-                    color: Colors.orange,
+                    color: Colors.amber,
                     boxShadow: [
                       BoxShadow(
                         color: Colors.grey.withOpacity(0.5),
