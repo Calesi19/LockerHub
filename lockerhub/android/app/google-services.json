@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "502809784341",
+    "project_id": "lockerhub-5382f",
+    "storage_bucket": "lockerhub-5382f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502809784341:android:fa0e249b6949c0af5cde1c",
+        "android_client_info": {
+          "package_name": "com.example.lockerhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502809784341-rv9uimc3jp5qtkknc14fl66l2h9chntt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5MverSPItyeRJb9oqotC4kPXHTnxCdxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502809784341-rv9uimc3jp5qtkknc14fl66l2h9chntt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
