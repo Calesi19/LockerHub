@@ -2,23 +2,23 @@
 
 This prototype was my first attempt at a mobile app during college. It's a full stack project, built using Flutter, Firestore, and Google Cloud Functions.
 
-![LockerHub](doc/23.png)
+![LockerHub](docs/banner.png)
 
 ## Flutter UI Code Example
-![Flutter UI Code Example](doc/14.png)
+![Flutter UI Code Example](docs/14.png)
 
 ## Firestore Database Structure
-![Flutter Server Code Example](doc/15.png)
+![Flutter Server Code Example](docs/15.png)
 
 
-![Flutter Database Structure](doc/16.png)
+![Flutter Database Structure](docs/16.png)
 
 ## Backed Server Code
-![Flutter Server Code Example](doc/17.png)
+![Flutter Server Code Example](docs/17.png)
 
 
 ## Development Process
-![Iterations Example](doc/25.gif)
+![Iterations Example](docs/25.gif)
 
 The app went through multiple iterations before reaching the final prototype. Earlier versions used:
 * GoLang Server
@@ -30,7 +30,7 @@ The app went through multiple iterations before reaching the final prototype. Ea
 
 As I developed the app more, I looked for ways to simplify the project the most I could. I eventually reached the current tech stack that I employed: Flutter, Google Cloud Functions, Firebase Authentication, and Firestore. This new stack provided me with features to leverage and speed up the development process. The app isn't perfect or complete, but building this prototype helped me learn and cover many new concepts and technologies.
 
-![Prototype Example](doc/26.gif)
+![Prototype Example](docs/26.gif)
 
 
 ## Running the App
@@ -48,8 +48,8 @@ Inside of this Firebase Project, deploy the code in the "server" folder to Cloud
 
 ## Testing Server and Database
 
-![Postman Intro](doc/19.png)
+![Postman Intro](docs/19.png)
 
 After the database and server have been deployed, you can then interface with the flutter app using your own firebase access keys or use Postman to test your API.
 
-![Using Postman Example](doc/20.png)
+![Using Postman Example](docs/20.png)
